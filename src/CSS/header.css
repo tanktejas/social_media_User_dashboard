@@ -1,0 +1,10 @@
+.maincontainer{
+    display: flex !important;
+    justify-content: space-around !important;
+}
+.usedash{
+    font-size: 20px;
+    font-weight: 700;
+     
+}
+ 

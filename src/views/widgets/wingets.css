@@ -1,0 +1,10 @@
+.mainuserdis{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    height: 120px;
+}
+.mainuserdis div h1{
+    font-size: 49px;
+}
