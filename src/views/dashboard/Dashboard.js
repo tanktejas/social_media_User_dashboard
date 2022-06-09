@@ -375,10 +375,11 @@ const Dashboard = () => {
         'Content-Type': 'application/json',
       },
     })
-      .then(async (data) => data.json())
-      .then((data) => {
+      .then(async (data) => {
         window.location.reload()
+        return data.json()
       })
+      .then((data) => {})
   }
   console.log(nameofdashboardowener)
   return (
